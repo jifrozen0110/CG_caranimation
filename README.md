@@ -1,5 +1,6 @@
 # CG_caranimation
-## 
+## 컴퓨터그래픽스
+
 
 ![image](https://user-images.githubusercontent.com/62784314/103120416-fef0fe00-46ba-11eb-82a4-8c8ace72e6bd.png)
 ![image](https://user-images.githubusercontent.com/62784314/103120422-03b5b200-46bb-11eb-92b0-dca18c6b50f9.png)
