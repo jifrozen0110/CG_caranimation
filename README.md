@@ -1,19 +1,19 @@
 # CG_caranimation
-컴퓨터 그래픽스
+##컴퓨터 그래픽스
 
 
 ![image](https://user-images.githubusercontent.com/62784314/103120416-fef0fe00-46ba-11eb-82a4-8c8ace72e6bd.png)
 ![image](https://user-images.githubusercontent.com/62784314/103120422-03b5b200-46bb-11eb-92b0-dca18c6b50f9.png)
 ![image](https://user-images.githubusercontent.com/62784314/103120427-06180c00-46bb-11eb-82f7-1febe6bcb52c.png)
 ![image](https://user-images.githubusercontent.com/62784314/103120430-087a6600-46bb-11eb-80d1-cc5e33587daa.png)
-1) 주제 설정
+###1) 주제 설정
 신호등 빨간불에서 멈춰야 하고 속도위반 표지판에 맞춰 속도를 늦춰야한다.
 자동차는 직진을 해 도착상자를 먹으면 제자리로 돌아간다.
 
-5) Texture mapping
+###2) Texture mapping
 – 이미지를 이용하여 바닥과 벽을 사실적으로 표현
 – 모든 물체는 텍스처 매핑이 되어있어야 함.
-1. .tga 파일을 이용하여 투명한 텍스처 매핑
+####1. .tga 파일을 이용하여 투명한 텍스처 매핑
 코드 일부분
 
 void loadtag(void)
@@ -63,7 +63,7 @@ void loadtag(void)
     }
     glPopMatrix();
 
-2. Environment mapping 
+####2. Environment mapping 
 부족한 점 : 매핑 후 이벤트 실행하면 비 컬러가 매핑된 후 화면에서 사라짐
 
 //Enviroment mapping
@@ -141,8 +141,8 @@ void LoadEnviromentTextures() {
     glPopMatrix();
 
 
-6) Particle systems
-비
+###3) Particle systems
+####비
 
 //winddir 비 각도 windspeed 비속도
 int screennum = 0, winddir = 45;
@@ -226,7 +226,7 @@ struct particle {
     }
 
 
-7) 조명을 추가해 더욱 사실적인 공간을 나타냄
+###4) 조명을 추가해 더욱 사실적인 공간을 나타냄
 
 GLfloat Light0_Ambient[] = { 0.5f, 0.5f, 0.5f, 1.0f };
     GLfloat Light0_Diffuse[] = { 1.0f, 1.0f, 1.0f, 1.0f };
@@ -240,7 +240,7 @@ GLfloat Light0_Ambient[] = { 0.5f, 0.5f, 0.5f, 1.0f };
     glEnable(GL_LIGHT0);
 
 
-8) 카메라 이동 : 다양한 거리, 각도에서 코트를 바라볼 수 있음
+###5) 카메라 이동 : 다양한 거리, 각도에서 코트를 바라볼 수 있음
 – Keyboard의 화살표(↑← ↓ → ) 키들을 사용하여 Camera가 상, 하, 좌,
 우 이동이 가능하여야 하며, <PgUp> 및 <PgDn> 키를 사용하여 Zoom
 In/Out이 가능하여야 함
@@ -296,7 +296,7 @@ void MySpecial(int key, int x, int y) {
     glutPostRedisplay();//MyDisplay() 호출
 }
 
-9) Animation
+###6) Animation
 – 타이머를 이용하여 물체의 기하변환을 애니메이션 함
 – 단. 애니메이션은 주제에 부합하여야 함
 – Mouse의 Left Button을 Click하면 전체적인 Animation이 Play
