@@ -1,6 +1,9 @@
 # CG_caranimation
 컴퓨터 그래픽스
-
+![image](https://user-images.githubusercontent.com/62784314/103120416-fef0fe00-46ba-11eb-82a4-8c8ace72e6bd.png)
+![image](https://user-images.githubusercontent.com/62784314/103120422-03b5b200-46bb-11eb-92b0-dca18c6b50f9.png)
+![image](https://user-images.githubusercontent.com/62784314/103120427-06180c00-46bb-11eb-82f7-1febe6bcb52c.png)
+![image](https://user-images.githubusercontent.com/62784314/103120430-087a6600-46bb-11eb-80d1-cc5e33587daa.png)
 1) 주제 설정
 신호등 빨간불에서 멈춰야 하고 속도위반 표지판에 맞춰 속도를 늦춰야한다.
 자동차는 직진을 해 도착상자를 먹으면 제자리로 돌아간다.
